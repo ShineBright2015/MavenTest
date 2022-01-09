@@ -1,4 +1,5 @@
 apply plugin: 'com.android.library'
+group='com.github.ShineBright2015'
 
 android {
     compileSdkVersion 30
@@ -34,15 +35,15 @@ dependencies {
 }
 
 
-apply plugin: 'maven'
+/*apply plugin: 'maven'
 uploadArchives {
     repositories.mavenDeployer {
         def mavenDirPath = file('F:\\maventest') // 本地存放目录(自行选择)，可放在gradle.properties文件中引用
         repository(url:"file://${mavenDirPath.absolutePath}") // 必须双引号，单引号不会转义$
         pom.project {
             groupId "com.gaohua.maventest" // 可以随意取，一般取包名
-            artifactId "meaventest" // 可以随意取，一般取库的名字
-            version "1.0.0" // 版本号
+            artifactId "test" // 可以随意取，一般取库的名字
+            version "1.0" // 版本号
         }
     }
-}
+}*/
