@@ -35,7 +35,7 @@ dependencies {
 }
 
 
-/*apply plugin: 'maven'
+apply plugin: 'maven'
 uploadArchives {
     repositories.mavenDeployer {
         def mavenDirPath = file('F:\\maventest') // 本地存放目录(自行选择)，可放在gradle.properties文件中引用
@@ -46,4 +46,4 @@ uploadArchives {
             version "1.0" // 版本号
         }
     }
-}*/
+}
