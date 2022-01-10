@@ -1,4 +1,5 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
 group='com.github.ShineBright2015'
 
 android {
@@ -35,6 +36,7 @@ dependencies {
 }
 
 
+/*
 apply plugin: 'maven'
 uploadArchives {
     repositories.mavenDeployer {
@@ -47,3 +49,4 @@ uploadArchives {
         }
     }
 }
+*/
